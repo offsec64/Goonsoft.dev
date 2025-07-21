@@ -3,6 +3,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
+    margin:0;
 }
 
 #header{
@@ -188,5 +189,11 @@ body{
     color: black; 
     text-decoration: none;
     padding: 2px 0px;
+    text-align: center;
+}
+
+.banner{
+    background-color: #f8cb12;
+    padding: 10px;
     text-align: center;
 }
