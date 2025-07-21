@@ -89,11 +89,31 @@
             <a class="fineprint">†Requires RS232 to USB-C cable (sold separately).</a>
             <a class="fineprint">§This is the opposite of a toll-free number, in that it will literally raise your phone bill.</a>
             <div class="flexspacer"></div>
-            <div class="section"><a id="closebutton">No thanks, I'm boring and hate cool stuff.</a></div>
-        </div>
+            <div class="nopad_section">
+                <div class="flexspacer"></div>
+                <a id="closebutton" onclick="toggle()">No thanks, I'm boring and hate cool stuff.</a>
+                <div class="flexspacer">
+
+                </div>
+            </div>
+        
+            </div>
 
 
     </body>
+
+    <script>
+
+        setTimeout(() => {
+      var x = document.getElementById("popup1");x.style.display = "flex";
+    }, 2000);
+        
+
+        function toggle() {
+            var x = document.getElementById("popup1");
+            x.style.display = "none";
+        }
+    </script>
 
 
 

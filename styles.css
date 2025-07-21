@@ -210,7 +210,7 @@ body{
     left:15%;
     padding:20px;
     border: 2px solid black;
-    display:flex;
+    display:none;
     flex-direction:column;
 }
 
@@ -254,9 +254,16 @@ body{
     width: fit-content;
     border-radius: 40px;
     text-align: center;
+    color:white;
 }
 
-#closebutton.hover{
+#closebutton:hover{
     background: #fc6868;
     background: linear-gradient(0deg, rgba(252, 104, 104, 1) 0%, rgba(255, 184, 184, 1) 100%);
+}
+
+.nopad_section{
+    display:flex;
+    position:relative;
+    margin-bottom: 10px;
 }
