@@ -199,3 +199,64 @@ body{
     padding: 10px;
     text-align: center;
 }
+
+#popup1{
+    position:absolute;
+    width: 70%;
+    height: 500px;
+    background-color: rgb(232, 232, 232);
+    z-index: 0;
+    top:100px;
+    left:15%;
+    padding:20px;
+    border: 2px solid black;
+    display:flex;
+    flex-direction:column;
+}
+
+
+.popupsection{
+    width:100%;
+    display:flex;
+    position:relative;
+    margin-top: 20px;
+}
+
+.headerandimage{
+    font-size: 1.3em;
+    width:30%;
+    margin: 0px 25px;
+}
+
+.headerandimage img{
+    width:100%;
+}
+
+.popupsection a{
+    width:70%;
+    text-align:justify;
+}
+
+.offertext{
+    text-align: center;
+    font-size:1.2em;
+    color:red;
+}
+
+.fineprint{
+    font-size:.7em;
+}
+
+#closebutton{
+    background: #fa0000;
+    background: linear-gradient(0deg, rgba(250, 0, 0, 1) 0%, rgba(255, 110, 110, 1) 100%);
+    padding:10px;
+    width: fit-content;
+    border-radius: 40px;
+    text-align: center;
+}
+
+#closebutton.hover{
+    background: #fc6868;
+    background: linear-gradient(0deg, rgba(252, 104, 104, 1) 0%, rgba(255, 184, 184, 1) 100%);
+}
