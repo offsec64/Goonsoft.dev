@@ -74,9 +74,9 @@ body{
 
 .wave-mid {
   background-color: rgb(0, 0, 0);
-  height: 16em;
+  height: fit-content;
   color: white;
-  padding: 1% 10%;
+  padding: 1% 10% 3% 10%;
   font-size:1.2em;
 }
 
