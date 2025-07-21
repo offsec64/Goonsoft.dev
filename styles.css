@@ -1,5 +1,7 @@
 body{
     width:80%;
+    left:10%;
+    position:relative;
 }
 
 #header{
@@ -14,5 +16,10 @@ body{
     background-image: linear-gradient(333deg,rgba(5, 251, 255, 1) 1%, rgba(154, 87, 199, 1) 51%, rgba(229, 83, 237, 1) 100%);
     color: transparent;
     background-clip: text;
-    font-size: 5em;
+    font-size: 2.2em;
+}
+
+#headerimage{
+    width: 30%;
+    background-color: linear-gradient(333deg,rgba(5, 251, 255, 1) 1%, rgba(154, 87, 199, 1) 51%, rgba(229, 83, 237, 1) 100%);
 }
