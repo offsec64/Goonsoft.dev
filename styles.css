@@ -1,11 +1,15 @@
 body{
-    width:80%;
-    left:10%;
-    position:absolute;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 #header{
     display:flex;
+    width:86%;
+    left:7%;
+    position:relative;
 }
 
 #headertextcontainer{
@@ -30,4 +34,94 @@ body{
 
 #headerimage{
    height:30em;
+}
+
+
+
+
+
+.wave-top {
+  position: relative;
+  margin-top: 20px;
+}
+
+.wave-top::before,
+.wave-top::after {
+  border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+.wave-top::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 10px;
+  background-size: 20px 40px;
+  background-image: radial-gradient(circle at 10px -15px, transparent 20px, rgb(0, 0, 0) 21px);
+}
+
+.wave-top::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 15px;
+  background-size: 40px 40px;
+  background-image: radial-gradient(circle at 10px 26px, rgb(0, 0, 0) 20px, transparent 21px);
+}
+
+.wave-mid {
+  background-color: rgb(0, 0, 0);
+  height: 16em;
+  color: white;
+  padding: 1% 10%;
+  font-size:1.2em;
+}
+
+.wave-bottom {
+  position: relative;
+}
+
+.wave-bottom::before,
+.wave-bottom::after {
+  border-top: 5px solid rgb(0, 0, 0);
+}
+
+.wave-bottom::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 10px;
+  background-size: 20px 40px;
+  background-image: radial-gradient(circle at 10px -15px, transparent 20px, #fff 21px);
+}
+
+.wave-bottom::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 15px;
+  background-size: 40px 40px;
+  background-image: radial-gradient(circle at 10px 26px, #fff 20px, transparent 21px);
+}
+
+
+
+
+
+.accent-text{
+    border: 1px solid black;
+    border-radius:20px;
+    height: 20px;
+    width: fit-content;
+    padding: 10px 20px 0px 20px;
+    margin-bottom:20px;
+    font-size: auto;
+    font-size: .8em;
 }
